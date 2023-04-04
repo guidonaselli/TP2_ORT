@@ -1,0 +1,23 @@
+Combinar el uso de funciones de lectura y escritura de archivos con la creación de al menos dos módulos en Node.js.
+
+Instrucciones:
+
+Crear un archivo de texto llamado "data.txt" con la siguiente información:
+
+Este es el contenido del archivo de prueba 
+
+
+
+
+Crear dos módulos en Node.js con las siguientes características:
+
+Módulo 1: Este módulo deberá contener una función que lea el contenido del archivo "data.txt" y lo almacene en una variable.
+
+Módulo 2: Este módulo deberá contener una función que tome una cadena de texto como parámetro y la escriba en el archivo "data.txt".
+
+En un archivo principal de Node.js, importar los dos módulos creados y utilizarlos para leer el contenido del archivo "data.txt", mostrarlo por consola, modificarlo y luego volver a escribirlo en el archivo.
+
+Ejecutar el archivo principal y verificar que el contenido del archivo "data.txt" se haya modificado correctamente.
+
+Nota: Recuerda utilizar los módulos "fs" y "path" de Node.js para trabajar con archivos y rutas. 
+example: const data = fs.readFileSync(path, 'utf-8');
