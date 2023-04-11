@@ -1,6 +1,6 @@
 const http = require('http');
 function obtenerClima(ciudad, callback) {
-  const url = `http://api.openweathermap.org/data/2.5/weather?q=${ciudad}&appid=d6382ca05d21979767c0f8d1676330a0`;
+  const url = `http://api.openweathermap.org/data/2.5/weather?q=${ciudad}&appid=API-KEY`;
   http.get(url, (res) => {
     let data = '';
     res.on('data', (chunk) => {
