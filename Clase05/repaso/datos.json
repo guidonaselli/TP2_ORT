@@ -1,0 +1,23 @@
+[
+    {
+      "nombre": "María",
+      "apellido": "González",
+      "edad": 30,
+      "dirección": {
+        "calle": "Calle Real",
+        "numero": 456,
+        "ciudad": "Rosario"
+      }
+    },
+    {
+      "nombre": "Carlos",
+      "apellido": "Gutiérrez",
+      "edad": 35,
+      "dirección": {
+        "calle": "Calle Principal",
+        "numero": 789,
+        "ciudad": "Córdoba"
+      }
+    }
+  ]
+  
