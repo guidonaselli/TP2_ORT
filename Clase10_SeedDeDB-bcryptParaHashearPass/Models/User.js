@@ -22,9 +22,6 @@ User.init({ //En el primer objeto le paso los campos a crear
   password: {
     type: DT.STRING,
     allowNull: false,
-    validate:{
-      len: [2, 50],
-    }
   },
   firstName: {
     type: DT.STRING,
